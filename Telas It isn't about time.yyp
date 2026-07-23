@@ -27,6 +27,7 @@
     {"id":{"name":"obj_btn_menu","path":"objects/obj_btn_menu/obj_btn_menu.yy",},},
     {"id":{"name":"obj_btn_start","path":"objects/obj_btn_start/obj_btn_start.yy",},},
     {"id":{"name":"obj_tela_menu","path":"objects/obj_tela_menu/obj_tela_menu.yy",},},
+    {"id":{"name":"obs_screen_upgrades","path":"objects/obs_screen_upgrades/obs_screen_upgrades.yy",},},
     {"id":{"name":"room_game","path":"rooms/room_game/room_game.yy",},},
     {"id":{"name":"room_menu","path":"rooms/room_menu/room_menu.yy",},},
     {"id":{"name":"spr_btn_help","path":"sprites/spr_btn_help/spr_btn_help.yy",},},

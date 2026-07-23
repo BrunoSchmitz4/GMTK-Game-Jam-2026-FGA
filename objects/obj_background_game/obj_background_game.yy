@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_background_game",
+    "path":"sprites/spr_background_game/spr_background_game.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

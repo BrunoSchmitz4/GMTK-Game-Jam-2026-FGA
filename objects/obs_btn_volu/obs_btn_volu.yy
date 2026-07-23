@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tela_menu",
+  "%Name":"obs_btn_volu",
   "eventList":[],
   "managed":true,
-  "name":"obj_tela_menu",
+  "name":"obs_btn_volu",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_screen_menu",
-    "path":"sprites/spr_screen_menu/spr_screen_menu.yy",
+    "name":"spr_btn_volu",
+    "path":"sprites/spr_btn_volu/spr_btn_volu.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tela_menu",
+  "%Name":"obs_screen_upgrades",
   "eventList":[],
   "managed":true,
-  "name":"obj_tela_menu",
+  "name":"obs_screen_upgrades",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_screen_menu",
-    "path":"sprites/spr_screen_menu/spr_screen_menu.yy",
+    "name":"spr_screen_upgrades",
+    "path":"sprites/spr_screen_upgrades/spr_screen_upgrades.yy",
   },
   "spriteMaskId":null,
   "visible":true,

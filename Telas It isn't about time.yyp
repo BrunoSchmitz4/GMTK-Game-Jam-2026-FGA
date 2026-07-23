@@ -1,0 +1,47 @@
+{
+  "$GMProject":"v1",
+  "%Name":"Telas It isn't about time",
+  "AudioGroups":[
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+  "configs":{
+    "children":[],
+    "name":"Default",
+  },
+  "defaultScriptType":0,
+  "Folders":[
+    {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
+  "ForcedPrefabProjectReferences":[],
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2026.0.0.16",
+  },
+  "name":"Telas It isn't about time",
+  "resources":[
+    {"id":{"name":"obj_btn_help","path":"objects/obj_btn_help/obj_btn_help.yy",},},
+    {"id":{"name":"obj_btn_menu","path":"objects/obj_btn_menu/obj_btn_menu.yy",},},
+    {"id":{"name":"obj_btn_start","path":"objects/obj_btn_start/obj_btn_start.yy",},},
+    {"id":{"name":"obj_tela_menu","path":"objects/obj_tela_menu/obj_tela_menu.yy",},},
+    {"id":{"name":"room_game","path":"rooms/room_game/room_game.yy",},},
+    {"id":{"name":"room_menu","path":"rooms/room_menu/room_menu.yy",},},
+    {"id":{"name":"spr_btn_help","path":"sprites/spr_btn_help/spr_btn_help.yy",},},
+    {"id":{"name":"spr_btn_menu","path":"sprites/spr_btn_menu/spr_btn_menu.yy",},},
+    {"id":{"name":"spr_btn_start","path":"sprites/spr_btn_start/spr_btn_start.yy",},},
+    {"id":{"name":"spr_tela_menu","path":"sprites/spr_tela_menu/spr_tela_menu.yy",},},
+  ],
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"room_menu","path":"rooms/room_menu/room_menu.yy",},},
+    {"roomId":{"name":"room_game","path":"rooms/room_game/room_game.yy",},},
+  ],
+  "templateType":"game",
+  "TextureGroups":[
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+}

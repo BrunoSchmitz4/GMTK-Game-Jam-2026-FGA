@@ -1,1 +1,4 @@
-show_message("Upgrades")
+with (obj_screen_upgrades)
+{
+    visible = true;
+}

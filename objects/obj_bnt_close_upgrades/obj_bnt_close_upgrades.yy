@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_screen_upgrades",
+  "%Name":"obj_bnt_close_upgrades",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_screen_upgrades",
+  "name":"obj_bnt_close_upgrades",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_screen_upgrades",
-    "path":"sprites/spr_screen_upgrades/spr_screen_upgrades.yy",
+    "name":"spr_btn_close_upgrades",
+    "path":"sprites/spr_btn_close_upgrades/spr_btn_close_upgrades.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

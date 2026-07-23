@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tela_menu",
+  "%Name":"obj_btn_addvol",
   "eventList":[],
   "managed":true,
-  "name":"obj_tela_menu",
+  "name":"obj_btn_addvol",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_screen_menu",
-    "path":"sprites/spr_screen_menu/spr_screen_menu.yy",
+    "name":"spr_btn_addvol",
+    "path":"sprites/spr_btn_addvol/spr_btn_addvol.yy",
   },
   "spriteMaskId":null,
   "visible":true,

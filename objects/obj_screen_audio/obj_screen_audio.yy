@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obs_btn_volu",
+  "%Name":"obj_screen_audio",
   "eventList":[],
   "managed":true,
-  "name":"obs_btn_volu",
+  "name":"obj_screen_audio",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_btn_volu",
-    "path":"sprites/spr_btn_volu/spr_btn_volu.yy",
+    "name":"spr_screen_audio",
+    "path":"sprites/spr_screen_audio/spr_screen_audio.yy",
   },
   "spriteMaskId":null,
   "visible":true,

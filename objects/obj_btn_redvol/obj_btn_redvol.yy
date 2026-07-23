@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obs_screen_upgrades",
+  "%Name":"obj_btn_redvol",
   "eventList":[],
   "managed":true,
-  "name":"obs_screen_upgrades",
+  "name":"obj_btn_redvol",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_screen_upgrades",
-    "path":"sprites/spr_screen_upgrades/spr_screen_upgrades.yy",
+    "name":"spr_btn_remvol",
+    "path":"sprites/spr_btn_remvol/spr_btn_remvol.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_scroller_audio",
+    "path":"sprites/spr_scroller_audio/spr_scroller_audio.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

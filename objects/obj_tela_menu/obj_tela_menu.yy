@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tela_menu",
-    "path":"sprites/spr_tela_menu/spr_tela_menu.yy",
+    "name":"spr_screen_menu",
+    "path":"sprites/spr_screen_menu/spr_screen_menu.yy",
   },
   "spriteMaskId":null,
   "visible":true,

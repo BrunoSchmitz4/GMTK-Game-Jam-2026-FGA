@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tela_menu",
+  "%Name":"obj_scroller_audio",
   "eventList":[],
   "managed":true,
-  "name":"obj_tela_menu",
+  "name":"obj_scroller_audio",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_screen_menu",
-    "path":"sprites/spr_screen_menu/spr_screen_menu.yy",
+    "name":"spr_scroller_audio",
+    "path":"sprites/spr_scroller_audio/spr_scroller_audio.yy",
   },
   "spriteMaskId":null,
   "visible":true,

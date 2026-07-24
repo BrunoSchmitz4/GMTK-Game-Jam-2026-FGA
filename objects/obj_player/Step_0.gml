@@ -5,12 +5,18 @@ var move_x = move_right + move_left;
 
 x += move_x * move_speed;
 
+
+if (move_x != 0)
+{
+    image_xscale = sign(move_x);
+}
+
+
 if (move_x != 0)
 {
     if (sprite_index != spr_player_walk)
     {
         sprite_index = spr_player_walk;
-		image_xscale = move_x > 0 ? 1 : -1;
         image_index = 0;
     }
 }

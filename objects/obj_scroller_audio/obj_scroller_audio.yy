@@ -6,8 +6,8 @@
   "name":"obj_scroller_audio",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"obj_menu",
+    "path":"folders/Objects/obj_menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,

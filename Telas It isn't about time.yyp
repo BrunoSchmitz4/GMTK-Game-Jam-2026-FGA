@@ -24,6 +24,7 @@
   },
   "name":"Telas It isn't about time",
   "resources":[
+    {"id":{"name":"obj_background_game","path":"objects/obj_background_game/obj_background_game.yy",},},
     {"id":{"name":"obj_bnt_close_upgrades","path":"objects/obj_bnt_close_upgrades/obj_bnt_close_upgrades.yy",},},
     {"id":{"name":"obj_btn_addvol","path":"objects/obj_btn_addvol/obj_btn_addvol.yy",},},
     {"id":{"name":"obj_btn_help","path":"objects/obj_btn_help/obj_btn_help.yy",},},
@@ -40,6 +41,7 @@
     {"id":{"name":"room_audio","path":"rooms/room_audio/room_audio.yy",},},
     {"id":{"name":"room_game","path":"rooms/room_game/room_game.yy",},},
     {"id":{"name":"room_menu","path":"rooms/room_menu/room_menu.yy",},},
+    {"id":{"name":"spr_background_game","path":"sprites/spr_background_game/spr_background_game.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_barra_de_ferramentas","path":"sprites/spr_barra_de_ferramentas/spr_barra_de_ferramentas.yy",},},
     {"id":{"name":"spr_btn_addvol","path":"sprites/spr_btn_addvol/spr_btn_addvol.yy",},},

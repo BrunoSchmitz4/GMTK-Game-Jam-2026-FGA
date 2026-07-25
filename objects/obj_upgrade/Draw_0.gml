@@ -56,4 +56,4 @@ if _id = 0
 	draw_set_halign(1);
 }
 
-draw_text(20,20,dev)
+draw_text(20,20,global.dev)

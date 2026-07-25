@@ -1,6 +1,7 @@
 if (!recrutado)
 {
     recrutado = true;
+	global.dev++
 
     if (array_length(global.team_queue) > 0)
     {

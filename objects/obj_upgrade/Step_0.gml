@@ -3,17 +3,17 @@ atualiza_tempo();
 
  //segundo += global.framerate;
 
-if dev = 1
+if global.dev = 1
 {
 	global.game_spd = 1.25;
 }
-else if dev = 2
+else if global.dev = 2
 {
 	global.game_spd = 1.5;
-}else if dev = 3
+}else if global.dev = 3
 {
 	global.game_spd = 1.75;
-}else if dev = 4
+}else if global.dev = 4
 {
 	global.game_spd = 2;
 }else
@@ -57,15 +57,10 @@ if(level>=objetivo)
 	level = objetivo;
 }
 
-if keyboard_check_released(vk_up)
-{
-	dev++;
-	
-	if(dev>=4)
+if(global.dev>=4)
 	{
-		dev = 4;
+		global.dev = 4;
 	}
-}
 
 
 

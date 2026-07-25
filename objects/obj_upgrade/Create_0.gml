@@ -9,6 +9,8 @@ custo = custobase;
 
 objetivo = 5;
 
+global.dev = 0;
+
 
 
 

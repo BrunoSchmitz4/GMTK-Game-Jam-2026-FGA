@@ -41,7 +41,7 @@ if (distance_walked >= spawn_threshold)
         var spawn_x = x + (spawn_dir * irandom_range(200, 400));
         spawn_x = clamp(spawn_x, 50, room_width - 50);
 
-        instance_create_layer(spawn_x, y, "enemys", obj_funcionario);
+        instance_create_layer(spawn_x, (y - 30), "enemys", obj_funcionario);
         global.funcionarios_spawnados++;
     }
 }

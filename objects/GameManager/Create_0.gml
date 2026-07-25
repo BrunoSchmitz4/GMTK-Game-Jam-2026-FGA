@@ -1,0 +1,1 @@
+global.segundo=300;

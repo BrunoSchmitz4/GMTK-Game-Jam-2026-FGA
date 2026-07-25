@@ -34,7 +34,8 @@ draw_rectangle_color(x2,y2,x2+progresso,y3,c_green,c_green,c_green,c_green,false
 var leva = tempo-timer;
 
 draw_rectangle_color(x+larg+10,y+15,x+35,y+40,c_green,c_green,c_green,c_green,false);
-draw_text(x+45,y+18,"time:"+ string(leva)); 
+draw_text(x+45,y+18,"time:"+ string(custo)); 
+//draw_text(x+45,y+18,"time:"+ string(leva)); 
 
 
 

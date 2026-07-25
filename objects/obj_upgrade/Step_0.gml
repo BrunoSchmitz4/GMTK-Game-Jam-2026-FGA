@@ -5,20 +5,25 @@ atualiza_tempo();
 
 if global.dev = 1
 {
-	global.game_spd = 1.25;
+	//global.game_spd = 1.25;
+	custo = custobase - 5;
 }
 else if global.dev = 2
 {
-	global.game_spd = 1.5;
+	//global.game_spd = 1.5;
+	custo = custobase - 10;
 }else if global.dev = 3
 {
-	global.game_spd = 1.75;
+	//global.game_spd = 1.75;
+	custo = custobase - 15;
 }else if global.dev = 4
 {
-	global.game_spd = 2;
+	//global.game_spd = 2;
+	custo = custobase - 20;
 }else
 {
-	global.game_spd = 1;
+	//global.game_spd = 1;
+	custo = custobase;
 }
 
 if(compra = true)
@@ -47,7 +52,10 @@ if(mousesobre)
 	if(mouseclique)
 	{
 		compra = true;
-		
+		if(timer<=0)
+		{
+			global.segundo -=custobase;
+		}
 		
 	}
 }
@@ -62,7 +70,11 @@ if(global.dev>=4)
 		global.dev = 4;
 	}
 
-
+if global.segundo <=0
+{
+	global.segundo = 0
+	room_goto(roombotaoteste);
+}
 
 
 

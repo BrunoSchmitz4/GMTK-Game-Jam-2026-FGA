@@ -57,3 +57,19 @@ if _id = 0
 }
 
 draw_text(20,20,global.dev)
+
+var mult = global.dev;
+
+if mult = 1
+{
+	draw_sprite(spr_mult1, 0, x, y-15);
+}else if mult = 2
+{
+	draw_sprite(spr_mult2, 0, x, y-15);
+}else if mult = 3
+{
+	draw_sprite(spr_mult3, 0, x, y-15);
+}else if mult = 4
+{
+	draw_sprite(spr_mult4, 0, x, y-15);
+}

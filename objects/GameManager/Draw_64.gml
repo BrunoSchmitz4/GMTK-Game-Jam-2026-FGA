@@ -1,4 +1,4 @@
-global.segundo -= global.framerate;
+global.segundo -= global.gamesegundo;
 var s = global.segundo%60;
 var m = (global.segundo div 60)%60;
 var h = (global.segundo div 60) div 60;

@@ -38,6 +38,7 @@ draw_text(x+45,y+18,"time:"+ string(leva));
 
 
 
+
 if _id = 0
 {
 	draw_set_halign(1);
@@ -54,3 +55,5 @@ if _id = 0
 	draw_text(x+100,y-7,string("Music and Sound"));
 	draw_set_halign(1);
 }
+
+draw_text(20,20,dev)

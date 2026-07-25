@@ -9,3 +9,7 @@ custo = custobase;
 
 objetivo = 5;
 
+
+
+
+

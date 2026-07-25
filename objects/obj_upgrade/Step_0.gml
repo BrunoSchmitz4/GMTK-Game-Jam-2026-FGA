@@ -1,15 +1,25 @@
 atualiza_tempo();
 
-//segundo += global.framerate;
 
-/* (keyboard_check(vk_space))
+ //segundo += global.framerate;
+
+if dev = 1
+{
+	global.game_spd = 1.25;
+}
+else if dev = 2
+{
+	global.game_spd = 1.5;
+}else if dev = 3
+{
+	global.game_spd = 1.75;
+}else if dev = 4
 {
 	global.game_spd = 2;
-}
-else
+}else
 {
 	global.game_spd = 1;
-}*/
+}
 
 if(compra = true)
 {
@@ -37,10 +47,8 @@ if(mousesobre)
 	if(mouseclique)
 	{
 		compra = true;
-		/*if(timer <=0)
-		{
-			global.segundo -= custobase;
-		}*/
+		
+		
 	}
 }
 
@@ -48,3 +56,19 @@ if(level>=objetivo)
 {
 	level = objetivo;
 }
+
+if keyboard_check_released(vk_up)
+{
+	dev++;
+	
+	if(dev>=4)
+	{
+		dev = 4;
+	}
+}
+
+
+
+
+
+

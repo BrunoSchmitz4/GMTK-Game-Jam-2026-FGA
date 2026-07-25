@@ -1,4 +1,4 @@
-global.segundo=300;
+global.segundo=60000;
 
 chat_x = 20;
 chat_y = 540;

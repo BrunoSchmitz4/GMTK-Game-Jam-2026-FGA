@@ -45,15 +45,3 @@ if (distance_walked >= spawn_threshold)
         global.funcionarios_spawnados++;
     }
 }
-
-if (move_x > 0) {
-	distance_walked_right += move_x * move_speed;
-	
-	if (distance_walked_right >= enemy_spawn_threshold) {
-		distance_walked_right -= enemy_spawn_threshold;
-		var enemy_spawned = irandom_range(obj_enemy_hater, obj_enemy_streamer);
-		var spawn_x = x + irandom_range(400, 700);
-		spawn_x = clamp(spawn_x, 50, room_width - 50);
-		instance_create_layer(spawn_x, y, "enemys", enemy_spawned);
-	}
-}

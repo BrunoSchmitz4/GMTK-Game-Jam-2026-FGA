@@ -11,6 +11,8 @@ objetivo = 5;
 
 global.dev = 0;
 
+move_speed = 2;
+
 
 
 

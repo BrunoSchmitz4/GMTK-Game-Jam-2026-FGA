@@ -14,4 +14,6 @@ if (!recrutado)
 
     array_push(global.team_queue, id);
     global.team_count++;
+
+    alarm[0] = irandom_range(15, 20) * room_speed; // sai da equipe depois de 15-20s
 }

@@ -31,17 +31,23 @@ else
 
 distance_walked += abs(move_x) * move_speed;
 
-if (distance_walked >= spawn_threshold)
-{
-    distance_walked -= spawn_threshold;
 
-    if (global.funcionarios_spawnados < global.max_funcionarios)
-    {
-        var spawn_dir = sign(move_x);
-        var spawn_x = x + (spawn_dir * irandom_range(200, 400));
-        spawn_x = clamp(spawn_x, 50, room_width - 50);
-
-        instance_create_layer(spawn_x, (y - 30), "enemys", obj_funcionario);
-        global.funcionarios_spawnados++;
-    }
+if (move_x > 0) {
+	distance_walked_right += move_x * move_speed;
+	
+	if (distance_walked_right >= spawn_threshold) {
+		distance_walked_right -= spawn_threshold;
+		
+		var spawn_x = x + viewx + irandom_range(50, 300);
+		
+		var roll = irandom_range(1, 100);
+		
+		if (roll <= 25) {
+			instance_create_layer(spawn_x, y - 30, "enemys", obj_funcionario);
+		}
+		else {
+			var enemy_type = choose(obj_enemy_hater, obj_enemy_streamer);
+			instance_create_layer(spawn_x, y - 30, "enemys", enemy_type);
+		}
+	}
 }

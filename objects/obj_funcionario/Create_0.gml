@@ -1,4 +1,4 @@
 recrutado = false;
 target = noone;
-move_speed = 1.5;
-distancia_seguir = 40;
+move_speed = 1.8;
+distancia_seguir = 30;

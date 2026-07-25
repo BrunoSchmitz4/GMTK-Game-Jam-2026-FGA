@@ -28,3 +28,20 @@ else
         image_index = 0;
     }
 }
+
+distance_walked += abs(move_x) * move_speed;
+
+if (distance_walked >= spawn_threshold)
+{
+    distance_walked -= spawn_threshold;
+
+    if (global.funcionarios_spawnados < global.max_funcionarios)
+    {
+        var spawn_dir = sign(move_x);
+        var spawn_x = x + (spawn_dir * irandom_range(200, 400));
+        spawn_x = clamp(spawn_x, 50, room_width - 50);
+
+        instance_create_layer(spawn_x, y, "enemys", obj_funcionario);
+        global.funcionarios_spawnados++;
+    }
+}

@@ -9,3 +9,5 @@ var hr = h>9? h : "0" + string(h);
 
 //draw_text(260,20,string("{0}:{1}:{2}",hr, _min, seg));
 draw_text(260,20,string(global.segundo) + "s");
+
+draw_text(260, 50, "Equipe: " + string(global.team_count) + "/" + string(global.max_funcionarios));

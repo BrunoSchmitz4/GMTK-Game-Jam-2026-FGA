@@ -73,7 +73,7 @@ if(global.dev>=4)
 if global.segundo <=0
 {
 	global.segundo = 0
-	room_goto(roombotaoteste);
+	room_goto(room_gameover);
 }
 
 

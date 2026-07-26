@@ -38,7 +38,7 @@
     {"id":{"name":"obj_btn_start","path":"objects/obj_btn_start/obj_btn_start.yy",},},
     {"id":{"name":"obj_btn_upgrades","path":"objects/obj_btn_upgrades/obj_btn_upgrades.yy",},},
     {"id":{"name":"obj_btn_volu","path":"objects/obj_btn_volu/obj_btn_volu.yy",},},
-    {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},},
+    {"id":{"name":"obj_collision_floor","path":"objects/obj_collision_floor/obj_collision_floor.yy",},},
     {"id":{"name":"obj_collisionmenu","path":"objects/obj_collisionmenu/obj_collisionmenu.yy",},},
     {"id":{"name":"obj_collisionmenu2","path":"objects/obj_collisionmenu2/obj_collisionmenu2.yy",},},
     {"id":{"name":"obj_enemy_hater","path":"objects/obj_enemy_hater/obj_enemy_hater.yy",},},

@@ -6,13 +6,13 @@ var move_x = move_right + move_left;
 
 x += move_x * move_speed;
 
-
 #region inverte o sprite
 if (move_x != 0)
 {
     image_xscale = sign(move_x);
 }
 
+#endregion
 
 #region lógica da colisão do player com o chão para o pulo
 
@@ -36,6 +36,7 @@ else
 
 on_ground = place_meeting(x, y + 1, obj_collision_floor);
 
+#endregion
 
 #region lógica pulo
 
@@ -44,9 +45,13 @@ if (jump && on_ground) {
     on_ground = false;
 }
 
+#endregion
+
 #region animações player
 
-if (!on_ground)
+if (!is_shooting)
+{
+  if (!on_ground)
 {
     if (sprite_index != spr_player_jump)
     {
@@ -71,10 +76,14 @@ else
     }
 }
 
+}
+
+#endregion
 
 #region lógica do obj_funcionario e spawn do obj_enemys
 
 distance_walked += abs(move_x) * move_speed;
+
 
 
 if (move_x > 0) {
@@ -96,5 +105,7 @@ if (move_x > 0) {
 		}
 	}
 }
+
+#endregion
 
 

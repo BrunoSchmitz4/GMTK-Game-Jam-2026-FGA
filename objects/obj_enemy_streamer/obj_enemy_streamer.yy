@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy_streamer",
-    "path":"sprites/spr_enemy_streamer/spr_enemy_streamer.yy",
+    "name":"spr_coverenemy",
+    "path":"sprites/spr_coverenemy/spr_coverenemy.yy",
   },
   "spriteMaskId":null,
   "visible":true,

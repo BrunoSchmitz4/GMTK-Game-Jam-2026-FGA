@@ -79,6 +79,8 @@
     {"id":{"name":"spr_btn_upgrades","path":"sprites/spr_btn_upgrades/spr_btn_upgrades.yy",},},
     {"id":{"name":"spr_btn_volu","path":"sprites/spr_btn_volu/spr_btn_volu.yy",},},
     {"id":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},},
+    {"id":{"name":"spr_coverenemy","path":"sprites/spr_coverenemy/spr_coverenemy.yy",},},
+    {"id":{"name":"spr_coverfunc","path":"sprites/spr_coverfunc/spr_coverfunc.yy",},},
     {"id":{"name":"spr_enemy_asian_boss","path":"sprites/spr_enemy_asian_boss/spr_enemy_asian_boss.yy",},},
     {"id":{"name":"spr_enemy_hater","path":"sprites/spr_enemy_hater/spr_enemy_hater.yy",},},
     {"id":{"name":"spr_enemy_shot","path":"sprites/spr_enemy_shot/spr_enemy_shot.yy",},},

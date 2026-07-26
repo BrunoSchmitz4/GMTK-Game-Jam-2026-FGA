@@ -1,3 +1,4 @@
+timeline_index= delta_time
 var move_right = keyboard_check(ord("D"));
 var move_left = -keyboard_check(ord("A"));
 var jump = keyboard_check(ord("W"));
@@ -15,8 +16,8 @@ if (move_x != 0)
 #endregion
 
 
-if (move_x != 0)
-#region lógica da colisão do player com o chão para o pulo
+//if (move_x != 0)
+/*#region lógica da colisão do player com o chão para o pulo
 
 vertical_speed += gravity_force;
 
@@ -47,7 +48,8 @@ if (jump && on_ground) {
     on_ground = false;
 }
 
-#endregion
+#endregion*/
+
 
 #region animações player
 
@@ -100,6 +102,7 @@ if (move_x > 0) {
 		
 		if (roll <= 25) {
 			instance_create_layer(spawn_x, y - 30, "enemys", obj_funcionario);
+			
 		}
 		else {
 			var enemy_type = choose(obj_enemy_hater, obj_enemy_streamer);

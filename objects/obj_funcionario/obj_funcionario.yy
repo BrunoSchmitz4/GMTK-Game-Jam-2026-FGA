@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_funcionario_idle",
-    "path":"sprites/spr_funcionario_idle/spr_funcionario_idle.yy",
+    "name":"spr_coverfunc",
+    "path":"sprites/spr_coverfunc/spr_coverfunc.yy",
   },
   "spriteMaskId":null,
   "visible":true,

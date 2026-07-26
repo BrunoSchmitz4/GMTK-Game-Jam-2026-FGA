@@ -90,7 +90,7 @@ if _id = 0
 	if(level>=5)
 	{
 		instance_destroy(obj_coverbg)
-		instance_destroy(obj_coverflor)
+		//instance_destroy(obj_coverflor)
 	}
 }
 
@@ -99,6 +99,10 @@ if _id = 1
 	if(level>=5)
 	{
 		instance_destroy(obj_coverplayer)
+		obj_enemy.sprite_index = spr_enemy_asian_boss;
+		obj_enemy_hater.sprite_index = spr_enemy_hater;
+		obj_enemy_streamer.sprite_index = spr_enemy_streamer;
+		obj_funcionario.sprite_index = spr_funcionario_idle;
 	}
 }
 

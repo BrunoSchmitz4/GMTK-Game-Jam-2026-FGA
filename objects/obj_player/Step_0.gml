@@ -1,7 +1,7 @@
-timeline_index= delta_time
+
 var move_right = keyboard_check(ord("D"));
 var move_left = -keyboard_check(ord("A"));
-var jump = keyboard_check(ord("W"));
+//var jump = keyboard_check(ord("W"));
 
 var move_x = move_right + move_left;
 
@@ -16,10 +16,10 @@ if (move_x != 0)
 #endregion
 
 
-//if (move_x != 0)
-/*#region lógica da colisão do player com o chão para o pulo
+/*if (move_x != 0)
+#region lógica da colisão do player com o chão para o pulo
 
-vertical_speed += gravity_force;
+vertical_speed += gravity_force; 
 
 if (!place_meeting(x, y + vertical_speed, obj_collision_floor))
 {
@@ -53,9 +53,7 @@ if (jump && on_ground) {
 
 #region animações player
 
-if (!is_shooting)
-{
-  if (!on_ground)
+/*if (!on_ground)
 {
     if (sprite_index != spr_player_jump)
     {
@@ -63,7 +61,11 @@ if (!is_shooting)
         image_index = 0;
     }
 }
-else if (move_x != 0)
+else*/
+
+if (!is_shooting)
+{
+   if (move_x != 0)
 {
     if (sprite_index != spr_player_walk)
     {

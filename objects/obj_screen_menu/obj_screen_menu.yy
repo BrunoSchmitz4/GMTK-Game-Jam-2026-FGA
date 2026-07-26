@@ -6,8 +6,8 @@
   "name":"obj_screen_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"obj_menu",
+    "path":"folders/Objects/obj_menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,

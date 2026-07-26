@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
   "%Name":"obj_btn_addvol",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_btn_addvol",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"obj_menu",
+    "path":"folders/Objects/obj_menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,

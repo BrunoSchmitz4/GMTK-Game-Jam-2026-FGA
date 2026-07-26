@@ -48,6 +48,7 @@
     {"id":{"name":"obj_coverbg","path":"objects/obj_coverbg/obj_coverbg.yy",},},
     {"id":{"name":"obj_coverflor","path":"objects/obj_coverflor/obj_coverflor.yy",},},
     {"id":{"name":"obj_coverplayer","path":"objects/obj_coverplayer/obj_coverplayer.yy",},},
+    {"id":{"name":"obj_ending_menu","path":"objects/obj_ending_menu/obj_ending_menu.yy",},},
     {"id":{"name":"obj_ending_text","path":"objects/obj_ending_text/obj_ending_text.yy",},},
     {"id":{"name":"obj_enemy_hater","path":"objects/obj_enemy_hater/obj_enemy_hater.yy",},},
     {"id":{"name":"obj_enemy_shot","path":"objects/obj_enemy_shot/obj_enemy_shot.yy",},},

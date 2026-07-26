@@ -39,6 +39,8 @@
     {"id":{"name":"obj_btn_upgrades","path":"objects/obj_btn_upgrades/obj_btn_upgrades.yy",},},
     {"id":{"name":"obj_btn_volu","path":"objects/obj_btn_volu/obj_btn_volu.yy",},},
     {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},},
+    {"id":{"name":"obj_collisionmenu","path":"objects/obj_collisionmenu/obj_collisionmenu.yy",},},
+    {"id":{"name":"obj_collisionmenu2","path":"objects/obj_collisionmenu2/obj_collisionmenu2.yy",},},
     {"id":{"name":"obj_enemy_hater","path":"objects/obj_enemy_hater/obj_enemy_hater.yy",},},
     {"id":{"name":"obj_enemy_shot","path":"objects/obj_enemy_shot/obj_enemy_shot.yy",},},
     {"id":{"name":"obj_enemy_streamer","path":"objects/obj_enemy_streamer/obj_enemy_streamer.yy",},},

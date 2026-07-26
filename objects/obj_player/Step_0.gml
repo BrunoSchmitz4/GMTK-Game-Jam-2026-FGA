@@ -5,6 +5,15 @@ var move_x = move_right + move_left;
 
 x += move_x * move_speed;
 
+if move_x =0
+{
+	Object19.move_speed = 0;
+}else
+{
+	Object19.move_speed = 2;
+}
+
+
 
 if (move_x != 0)
 {

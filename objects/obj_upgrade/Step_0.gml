@@ -54,7 +54,7 @@ if(mousesobre)
 		compra = true;
 		if(timer<=0)
 		{
-			global.segundo -=custobase;
+			global.segundo -=custo;
 		}
 		
 	}

@@ -116,6 +116,7 @@
     {"id":{"name":"spr_tutorial_01","path":"sprites/spr_tutorial_01/spr_tutorial_01.yy",},},
     {"id":{"name":"spr_water_fountain","path":"sprites/spr_water_fountain/spr_water_fountain.yy",},},
     {"id":{"name":"upgrade_button","path":"sprites/upgrade_button/upgrade_button.yy",},},
+    {"id":{"name":"yellow","path":"sprites/yellow/yellow.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

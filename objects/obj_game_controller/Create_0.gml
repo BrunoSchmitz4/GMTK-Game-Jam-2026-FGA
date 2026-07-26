@@ -1,4 +1,4 @@
-global.volume = 0
+global.volume = 2
 
 global.max_funcionarios = 4;
 global.funcionarios_spawnados = 0;

@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_coverenemy",
-    "path":"sprites/spr_coverenemy/spr_coverenemy.yy",
+    "name":"yellow",
+    "path":"sprites/yellow/yellow.yy",
   },
   "spriteMaskId":null,
   "visible":true,

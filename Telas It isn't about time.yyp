@@ -57,6 +57,7 @@
     {"id":{"name":"Object19","path":"objects/Object19/Object19.yy",},},
     {"id":{"name":"room_audio","path":"rooms/room_audio/room_audio.yy",},},
     {"id":{"name":"room_game","path":"rooms/room_game/room_game.yy",},},
+    {"id":{"name":"room_help","path":"rooms/room_help/room_help.yy",},},
     {"id":{"name":"room_menu","path":"rooms/room_menu/room_menu.yy",},},
     {"id":{"name":"roombotaoteste","path":"rooms/roombotaoteste/roombotaoteste.yy",},},
     {"id":{"name":"frames","path":"scripts/frames/frames.yy",},},
@@ -104,6 +105,7 @@
     {"id":{"name":"spr_shadows","path":"sprites/spr_shadows/spr_shadows.yy",},},
     {"id":{"name":"spr_tables","path":"sprites/spr_tables/spr_tables.yy",},},
     {"id":{"name":"spr_tela","path":"sprites/spr_tela/spr_tela.yy",},},
+    {"id":{"name":"spr_tutorial_01","path":"sprites/spr_tutorial_01/spr_tutorial_01.yy",},},
     {"id":{"name":"spr_water_fountain","path":"sprites/spr_water_fountain/spr_water_fountain.yy",},},
     {"id":{"name":"upgrade_button","path":"sprites/upgrade_button/upgrade_button.yy",},},
   ],
@@ -114,6 +116,7 @@
     {"roomId":{"name":"room_game","path":"rooms/room_game/room_game.yy",},},
     {"roomId":{"name":"room_audio","path":"rooms/room_audio/room_audio.yy",},},
     {"roomId":{"name":"roombotaoteste","path":"rooms/roombotaoteste/roombotaoteste.yy",},},
+    {"roomId":{"name":"room_help","path":"rooms/room_help/room_help.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

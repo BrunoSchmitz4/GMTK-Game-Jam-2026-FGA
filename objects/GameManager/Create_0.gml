@@ -8,3 +8,5 @@ line_height = 18;
 chat_scroll = 0;
 
 chat_manual_offset = 0;
+
+chat = false;

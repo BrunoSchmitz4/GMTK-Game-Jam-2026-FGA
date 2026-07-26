@@ -7,6 +7,7 @@ audio_master_gain(global.volume / 10)
 
 audio_play_sound(mus_game, 0, true);
 
+
 global.team_count = 0;
 global.team_queue = [];
 global.chat_messages = [];

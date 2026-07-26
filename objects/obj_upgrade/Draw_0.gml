@@ -43,21 +43,26 @@ draw_text(x+45,y+18,"time:"+ string(custo));
 if _id = 0
 {
 	draw_set_halign(1);
-	draw_text(x+100,y-7,string("Background color"));
+	draw_text(x+100,y-7,string("Background Visuals"));
 	draw_set_halign(1);
 }else if _id = 1
 {
 	draw_set_halign(1);
-	draw_text(x+100,y-7,string("Character Sprite"));
+	draw_text(x+100,y-7,string("Character Sprites"));
 	draw_set_halign(1);
 }else if _id = 2
 {
 	draw_set_halign(1);
 	draw_text(x+100,y-7,string("Music and Sound"));
 	draw_set_halign(1);
+}else if _id >= 3
+{
+	draw_set_halign(1);
+	draw_text(x+100,y-7,string("UI"));
+	draw_set_halign(1);
 }
 
-draw_text(20,20,global.dev)
+//draw_text(20,20,global.dev)
 
 var mult = global.dev;
 

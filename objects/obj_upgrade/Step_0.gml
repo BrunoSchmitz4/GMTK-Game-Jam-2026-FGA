@@ -85,6 +85,44 @@ var move_x = move_right + move_left;
 x += move_x * move_speed;
 
 
+if _id = 0
+{
+	if(level>=5)
+	{
+		instance_destroy(obj_coverbg)
+		instance_destroy(obj_coverflor)
+	}
+}
+
+if _id = 1
+{
+	if(level>=5)
+	{
+		instance_destroy(obj_coverplayer)
+	}
+}
+
+if _id = 2
+{
+	if(level>=5)
+	{
+		audio_resume_sound(mus_game);
+	}else{
+		audio_pause_sound(mus_game);
+	}
+}
+
+if _id >= 3
+{
+	if(level>=5)
+	{
+		GameManager.chat = true;
+	}
+}
+
+
+
+
 
 
 

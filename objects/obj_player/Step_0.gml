@@ -21,6 +21,7 @@ if (move_x != 0)
 }
 
 
+
 if (move_x != 0)
 {
     if (sprite_index != spr_player_walk)
@@ -60,3 +61,5 @@ if (move_x > 0) {
 		}
 	}
 }
+
+

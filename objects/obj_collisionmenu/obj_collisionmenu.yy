@@ -3,6 +3,7 @@
   "%Name":"obj_collisionmenu",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Object19","path":"objects/Object19/Object19.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_coverbg","path":"objects/obj_coverbg/obj_coverbg.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_collisionmenu",

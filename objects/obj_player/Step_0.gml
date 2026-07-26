@@ -1,19 +1,60 @@
 var move_right = keyboard_check(ord("D"));
 var move_left = -keyboard_check(ord("A"));
-var jump = keyboard_check_pressed(ord("W"));
+var jump = keyboard_check(ord("W"));
 
 var move_x = move_right + move_left;
 
 x += move_x * move_speed;
 
 
+#region inverte o sprite
 if (move_x != 0)
 {
     image_xscale = sign(move_x);
 }
 
 
-if (move_x != 0)
+#region lógica da colisão do player com o chão para o pulo
+
+vertical_speed += gravity_force;
+
+if (!place_meeting(x, y + vertical_speed, obj_collision_floor))
+{
+    y += vertical_speed;	
+	
+}
+else
+{
+    while (!place_meeting(x, y + sign(vertical_speed), obj_collision_floor))
+    {
+        y += sign(vertical_speed);
+    }
+
+   vertical_speed = 0;
+}
+
+
+on_ground = place_meeting(x, y + 1, obj_collision_floor);
+
+
+#region lógica pulo
+
+if (jump && on_ground) {
+    vertical_speed = -jump_force;
+    on_ground = false;
+}
+
+#region animações player
+
+if (!on_ground)
+{
+    if (sprite_index != spr_player_jump)
+    {
+        sprite_index = spr_player_jump;
+        image_index = 0;
+    }
+}
+else if (move_x != 0)
 {
     if (sprite_index != spr_player_walk)
     {
@@ -31,33 +72,7 @@ else
 }
 
 
-vertical_speed += gravity_force;
-
-
-if (!place_meeting(x, y + vertical_speed, obj_collision_floor))
-{
-    y += vertical_speed;
-}
-else
-{
-    while (!place_meeting(x, y + sign(vertical_speed), obj_collision_floor))
-    {
-        y += sign(vertical_speed);
-    }
-
-   vertical_speed = 0;
-}
-
-
-on_ground = place_meeting(x, y + 1, obj_collision_floor);
-
-
-if (jump && on_ground) {
-    vertical_speed = -jump_force;
-    on_ground = false;
-}
-show_debug_message("y = " + string(y));
-
+#region lógica do obj_funcionario e spawn do obj_enemys
 
 distance_walked += abs(move_x) * move_speed;
 

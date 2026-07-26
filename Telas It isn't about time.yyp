@@ -92,6 +92,7 @@
     {"id":{"name":"spr_mult4","path":"sprites/spr_mult4/spr_mult4.yy",},},
     {"id":{"name":"spr_pcs","path":"sprites/spr_pcs/spr_pcs.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
+    {"id":{"name":"spr_player_jump","path":"sprites/spr_player_jump/spr_player_jump.yy",},},
     {"id":{"name":"spr_player_walk","path":"sprites/spr_player_walk/spr_player_walk.yy",},},
     {"id":{"name":"spr_screen_audio","path":"sprites/spr_screen_audio/spr_screen_audio.yy",},},
     {"id":{"name":"spr_screen_menu","path":"sprites/spr_screen_menu/spr_screen_menu.yy",},},

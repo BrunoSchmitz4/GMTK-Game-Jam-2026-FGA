@@ -77,12 +77,7 @@ if global.segundo <=0
 }
 
 
-var move_right = keyboard_check(ord("D"));
-var move_left = -keyboard_check(ord("A"));
-
-var move_x = move_right + move_left;
-
-x += move_x * move_speed;
+x = obj_player.x + offset_x;
 
 
 if _id = 0
@@ -103,6 +98,7 @@ if _id = 1
 		obj_enemy_hater.sprite_index = spr_enemy_hater;
 		obj_enemy_streamer.sprite_index = spr_enemy_streamer;
 		obj_funcionario.sprite_index = spr_funcionario_idle;
+		global.char_sprite_unlocked = true;
 	}
 }
 

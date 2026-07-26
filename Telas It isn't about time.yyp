@@ -32,6 +32,7 @@
   "name":"Telas It isn't about time",
   "resources":[
     {"id":{"name":"GameManager","path":"objects/GameManager/GameManager.yy",},},
+    {"id":{"name":"obj_audio_volume","path":"objects/obj_audio_volume/obj_audio_volume.yy",},},
     {"id":{"name":"obj_background_game","path":"objects/obj_background_game/obj_background_game.yy",},},
     {"id":{"name":"obj_bnt_close_upgrades","path":"objects/obj_bnt_close_upgrades/obj_bnt_close_upgrades.yy",},},
     {"id":{"name":"obj_btn_addvol","path":"objects/obj_btn_addvol/obj_btn_addvol.yy",},},
@@ -81,6 +82,7 @@
     {"id":{"name":"animlogo","path":"sprites/animlogo/animlogo.yy",},},
     {"id":{"name":"Item","path":"sprites/Item/Item.yy",},},
     {"id":{"name":"spr_ampulheta","path":"sprites/spr_ampulheta/spr_ampulheta.yy",},},
+    {"id":{"name":"spr_audio_volume","path":"sprites/spr_audio_volume/spr_audio_volume.yy",},},
     {"id":{"name":"spr_background_game","path":"sprites/spr_background_game/spr_background_game.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_backgroundcover","path":"sprites/spr_backgroundcover/spr_backgroundcover.yy",},},

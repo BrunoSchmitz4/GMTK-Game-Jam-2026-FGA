@@ -1,5 +1,3 @@
-instance_create_layer(x, y - 20, "enemys", obj_player_shot);
-
 var max_shots = 1 + global.team_count;
 
 if (instance_number(obj_player_shot) < max_shots) {

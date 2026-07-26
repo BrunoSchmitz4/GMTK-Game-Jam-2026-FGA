@@ -18,3 +18,5 @@ vertical_speed = 0;
 
 
 
+map_left_edge = x;
+ground_y = y;

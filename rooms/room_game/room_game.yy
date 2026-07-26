@@ -18,7 +18,6 @@
     {"name":"inst_58257012","path":"rooms/room_game/room_game.yy",},
     {"name":"inst_700D45CC","path":"rooms/room_game/room_game.yy",},
     {"name":"inst_415B0F8C","path":"rooms/room_game/room_game.yy",},
-    {"name":"inst_17B80FF6","path":"rooms/room_game/room_game.yy",},
     {"name":"inst_57BBB817","path":"rooms/room_game/room_game.yy",},
     {"name":"inst_74D36D35","path":"rooms/room_game/room_game.yy",},
     {"name":"inst_6D4C055A","path":"rooms/room_game/room_game.yy",},
@@ -50,7 +49,6 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_upgrade","path":"objects/obj_upgrade/obj_upgrade.yy",},"propertyId":{"name":"tempo","path":"objects/obj_upgrade/obj_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_upgrade","path":"objects/obj_upgrade/obj_upgrade.yy",},"propertyId":{"name":"custobase","path":"objects/obj_upgrade/obj_upgrade.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"40",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-284.0,"y":102.0,},
-        {"$GMRInstance":"v4","%Name":"inst_17B80FF6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_17B80FF6","objectId":{"name":"obj_coverplayer","path":"objects/obj_coverplayer/obj_coverplayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.09375,"x":347.0,"y":675.0,},
       ],"layers":[],"name":"player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"enemys","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_2E109744","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2E109744","objectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":839.0,"y":623.0,},

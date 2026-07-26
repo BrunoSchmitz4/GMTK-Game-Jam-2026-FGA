@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_scroller_audio",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_audio_volume",
+  "eventList":[],
   "managed":true,
-  "name":"obj_scroller_audio",
+  "name":"obj_audio_volume",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_menu",

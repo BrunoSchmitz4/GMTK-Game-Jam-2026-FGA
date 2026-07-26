@@ -1,2 +1,3 @@
-scroll_min_x = 308;
-scroll_max_x = 852;
+cube_start_x = 460;
+cube_y = 325;
+cube_spacing = 40;

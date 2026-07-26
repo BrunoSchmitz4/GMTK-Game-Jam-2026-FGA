@@ -1,3 +1,4 @@
+offset_x = x - obj_player.x;
 level = 0;
 
 

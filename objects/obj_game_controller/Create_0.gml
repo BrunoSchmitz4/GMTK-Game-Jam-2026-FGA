@@ -11,3 +11,5 @@ audio_play_sound(mus_game, 0, true);
 global.team_count = 0;
 global.team_queue = [];
 global.chat_messages = [];
+
+global.char_sprite_unlocked = false;

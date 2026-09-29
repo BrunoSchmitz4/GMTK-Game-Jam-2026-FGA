@@ -3,6 +3,7 @@ draw_sprite(Item, 0, x, y-15);
 
 draw_set_valign(1);
 draw_set_halign(1);
+draw_set_font(font_asesprite)
 
 var x1 = x;
 var y1 = y+30;

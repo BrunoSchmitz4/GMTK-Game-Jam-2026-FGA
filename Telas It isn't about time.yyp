@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"obj_backgrounds","folderPath":"folders/Objects/obj_backgrounds.yy","name":"obj_backgrounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"obj_level","folderPath":"folders/Objects/obj_level.yy","name":"obj_level","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -19,7 +20,9 @@
     {"$GMFolder":"","%Name":"Sfxs","folderPath":"folders/Sfxs.yy","name":"Sfxs","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "ForcedPrefabProjectReferences":[],
+  "ForcedPrefabProjectReferences":[
+    {"link":"io.gamemaker.sdfshaders-1.0.0","name":"io.gamemaker.sdfshaders-1.0.0","path":"io.gamemaker.sdfshaders-1.0.0.yyp",},
+  ],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"Logo01.2-Sheet.aseprite","CopyToMask":-1,"filePath":"datafiles","name":"Logo01.2-Sheet.aseprite","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"Logo01.2.aseprite","CopyToMask":-1,"filePath":"datafiles","name":"Logo01.2.aseprite","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -31,6 +34,7 @@
   },
   "name":"Telas It isn't about time",
   "resources":[
+    {"id":{"name":"font_asesprite","path":"fonts/font_asesprite/font_asesprite.yy",},},
     {"id":{"name":"GameManager","path":"objects/GameManager/GameManager.yy",},},
     {"id":{"name":"obj_audio_volume","path":"objects/obj_audio_volume/obj_audio_volume.yy",},},
     {"id":{"name":"obj_background_game","path":"objects/obj_background_game/obj_background_game.yy",},},

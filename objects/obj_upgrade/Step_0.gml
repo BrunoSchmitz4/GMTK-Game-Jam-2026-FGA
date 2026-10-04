@@ -1,6 +1,7 @@
 atualiza_tempo();
 
 
+
  //segundo += global.framerate;
 
 if global.dev = 1
@@ -72,8 +73,10 @@ if(global.dev>=4)
 
 if global.segundo <=0
 {
-	global.segundo = 0
+	global.segundo = 0;
 	room_goto(room_gameover);
+	
+	
 }
 
 

@@ -11,6 +11,7 @@ var hr = h>9? h : "0" + string(h);
 draw_text(320,65,string(global.segundo) + "s");
 
 draw_text(320, 82, "Team: " + string(global.team_count));
+draw_set_color(c_white);
 
 if chat = true
 {
@@ -29,6 +30,7 @@ if chat = true
         if (_cursor_y + _h >= chat_y && _cursor_y <= chat_y + chat_height)
         {
             draw_text_ext(chat_x, _cursor_y, global.chat_messages[i], _sep, chat_width);
+			draw_set_color(c_white);
         }
 
         _cursor_y += _h;

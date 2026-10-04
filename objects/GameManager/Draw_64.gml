@@ -11,6 +11,7 @@ var hr = h>9? h : "0" + string(h);
 draw_text(320,65,string(global.segundo) + "s");
 
 draw_text(320, 82, "Team: " + string(global.team_count));
+draw_set_color(c_white);
 
 var _total_height = array_length(global.chat_messages) * line_height;
 var _max_scroll = max(0, _total_height - chat_height);
@@ -30,6 +31,15 @@ for (var i = 0; i < array_length(global.chat_messages); i++)
 		{
 			 draw_text(chat_x, _line_y, global.chat_messages[i]);
 		}
+        var _h = string_height_ext(global.chat_messages[i], _sep, chat_width);
+
+        if (_cursor_y + _h >= chat_y && _cursor_y <= chat_y + chat_height)
+        {
+            draw_text_ext(chat_x, _cursor_y, global.chat_messages[i], _sep, chat_width);
+			draw_set_color(c_white);
+        }
+
+        _cursor_y += _h;
     }
 }
  

@@ -17,6 +17,14 @@ if (_mouse_over_chat) {
 }
 
 
-var _max_scroll = max(0, array_length(global.chat_messages) * line_height - chat_height);
+var _sep = -1;
+total_chat_height = 0;
+
+for (var i = 0; i < array_length(global.chat_messages); i++)
+{
+    total_chat_height += string_height_ext(global.chat_messages[i], _sep, chat_width);
+}
+
+var _max_scroll = max(0, total_chat_height - chat_height);
 chat_manual_offset = clamp(chat_manual_offset, 0, _max_scroll);
 

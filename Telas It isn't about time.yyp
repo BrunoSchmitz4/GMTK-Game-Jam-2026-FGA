@@ -31,6 +31,7 @@
   },
   "name":"Telas It isn't about time",
   "resources":[
+    {"id":{"name":"BarraComando","path":"objects/BarraComando/BarraComando.yy",},},
     {"id":{"name":"GameManager","path":"objects/GameManager/GameManager.yy",},},
     {"id":{"name":"obj_audio_volume","path":"objects/obj_audio_volume/obj_audio_volume.yy",},},
     {"id":{"name":"obj_background_game","path":"objects/obj_background_game/obj_background_game.yy",},},
@@ -76,6 +77,7 @@
     {"id":{"name":"room_logos","path":"rooms/room_logos/room_logos.yy",},},
     {"id":{"name":"room_menu","path":"rooms/room_menu/room_menu.yy",},},
     {"id":{"name":"roombotaoteste","path":"rooms/roombotaoteste/roombotaoteste.yy",},},
+    {"id":{"name":"commands","path":"scripts/commands/commands.yy",},},
     {"id":{"name":"frames","path":"scripts/frames/frames.yy",},},
     {"id":{"name":"mus_game","path":"sounds/mus_game/mus_game.yy",},},
     {"id":{"name":"snd_text_beep","path":"sounds/snd_text_beep/snd_text_beep.yy",},},

@@ -13,3 +13,5 @@ global.team_queue = [];
 global.chat_messages = [];
 
 global.char_sprite_unlocked = false;
+
+if (!instance_exists(BarraComando)) instance_create_depth(0, 0, 0, BarraComando);
